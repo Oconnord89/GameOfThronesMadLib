@@ -1,0 +1,85 @@
+body {
+  background-image: url('images/got.jpg');
+
+
+
+}
+
+ul {
+    font-family: Cinzel;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightgrey;
+}
+
+li {
+    color: pink;
+
+
+}
+
+.box {
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom:15px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  color: #000;
+  font-family: Cinzel;
+  font-size: 20px;
+  background-color: lightgrey;
+  margin-left: 778px;
+  box-shadow: 10px 10px 5px #555;
+
+}
+
+#subBtn {
+  font-family: Cinzel;
+  border-radius: 16px;
+  border: none;
+  margin-left: 978px;
+  height: 30px;
+  width: 70px;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 5px #555;
+  cursor: pointer;
+}
+
+#subBtn:hover {
+  background-color: #555;
+  color: white;
+
+}
+
+#textStuff {
+  font-family: Cinzel;
+  color: white;
+  margin-top: 95px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+
+li a {
+
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+    background-color: #555;
+    color: white;
+}

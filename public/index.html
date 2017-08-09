@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='myMod' lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game of Thrones Mad Lib</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  </head>
+  <body>
+    <ul>
+    <li><a class="input"href="#!/input">input</a></li>
+    <li><a class="output"href="#!/output">output</a></li>
+  </ul>
+      <ng-view></ng-view>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+      <script src="https://code.angularjs.org/1.6.5/angular-route.js" charset="utf-8"></script>
+    <script src="module/module.js" charset="utf-8"></script>
+    <script src='config/config.js' charset="utf-8"></script>
+    <script src="service/service.js" charset="utf-8"></script>
+    <script src="controllers/inputCtrl.js" charset="utf-8"></script>
+    <script src="controllers/outputCtrl.js" charset="utf-8"></script>
+
+  </body>
+</html>
